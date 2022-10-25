@@ -9,7 +9,7 @@ Fd=I2;
 W=wavMadre(21,6);
 
 
-for t=1:N;
+for t=1:N
 ws=linspace(w1*t,w2*t,sx);
 I=cos(ws);
 I2(:,:,t)=repmat(I,sx,1);
